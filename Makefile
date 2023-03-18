@@ -6,10 +6,11 @@
 #    By: arommers <arommers@student.codam.nl>         +#+                      #
 #                                                    +#+                       #
 #    Created: 2022/10/10 14:07:45 by arommers      #+#    #+#                  #
-#    Updated: 2022/11/04 13:59:42 by arommers      ########   odam.nl          #
+#    Updated: 2023/03/18 22:29:33 by adri          ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
+PROJECT = libft
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror
 NAME = libft.a
@@ -30,31 +31,54 @@ SRC =  ft_split.c ft_itoa.c 			\
 		ft_tolower.c ft_isalnum.c 		\
 		ft_strchr.c ft_isascii.c 		\
 		ft_isprint.c ft_strrchr.c 		\
-		ft_strlen.c ft_strncmp.c
-BSRC = ft_lstnew.c ft_lstadd_front.c 	\
+		ft_strlen.c ft_strncmp.c		\
+		ft_lstnew.c ft_lstadd_front.c 	\
 		ft_lstsize.c ft_lstlast.c 		\
 		ft_lstadd_back.c ft_lstdelone.c \
 		ft_lstclear.c ft_lstiter.c 		\
 		ft_lstmap.c
-OBJ = $(SRC:%.c=%.o)
-BONUS = $(BSRC:%.c=%.o)
+OBJ_DIR = obj
+OBJ = $(addprefix $(OBJ_DIR)/, $(SRC:.c=.o))
+
+BLACK   := \033[30m
+RED     := \033[31m
+GREEN   := \033[32m
+YELLOW  := \033[33m
+BLUE 	:= \033[96m
+MAGENTA := \033[38;5;206m
+CYAN    := \033[36m
+WHITE   := \033[37m
+RESET   := \033[0m
+BOLD    := \033[1m
+DIM     := \033[2m
+ITALIC  := \033[3m
+UNDER   := \033[4m
+BLINK   := \033[5m
+REVERSE := \033[7m
+HIDDEN  := \033[8m
+PINK 	:= \033[35m
 
 all: $(NAME)
 
 $(NAME): $(OBJ)
-	ar -rcs $@ $^
-
-%.o: %.c
-	$(CC) $(CFLAGS) -c -o $@ $^
-
-bonus:	${OBJ} ${BONUS}
-		ar -rcs $(NAME) $(OBJ) $(BONUS)
-
+	@echo "Compiled with $(BLUE)$(BOLD)$(CFLAGS)$(RESET)"
+	@ar -rcs $@ $^
+	@echo "$(PINK)$(BOLD)----------------------------------------"
+	@echo "     $(PROJECT) = NOW READY FOR USE!"
+	@echo "----------------------------------------$(RESET)"
+	
+$(OBJ_DIR)/%.o: ./src/%.c
+	@mkdir -p $(OBJ_DIR)
+	@echo "Compiled ✅ $(PINK) $(BOLD) $^ $(RESET)"
+	@$(CC) $(CFLAGS) $(INCLUDE) -c -o $@ $^
+	
 clean:
-	rm -f $(OBJ) $(BONUS)
+	@rm -rf $(OBJ_DIR)
+	@rm -f $(OBJ)
 
 fclean: clean
-	rm -f $(NAME)
+	@rm -f $(NAME)
+	@echo "$(BLUE) $(BOLD)$(NAME) $(RESET) Cleansed ✅"
 
 re: fclean all
 
