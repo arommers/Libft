@@ -10,4 +10,5 @@ The libft project is a custom C library, providing a comprehensive set of standa
 - Character manipulation functions (isalpha, isdigit, tolower, etc.)
 - Additional utility functions for various common tasks (ft_split, str_trim, etc)
 - Linked list operations for dynamic data structures
+- Makefile construction
 
