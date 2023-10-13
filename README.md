@@ -9,11 +9,11 @@ The libft project is a custom C library, providing a comprehensive set of standa
 - String handling functions (strlen, strcpy, strcat, etc.)
 - Memory management functions (malloc, free, memset, etc.)
 - Character manipulation functions (isalpha, isdigit, tolower, etc.)
-- Additional utility functions for various common tasks (ft_split, str_trim, etc)
+- Additional utility functions for various common tasks (ft_split, str_trim, itoa, etc)
 - Linked list operations for dynamic data structures
 - Makefile construction
 ---
-### Custom Libc Functions
+### Reimplemented Libc Functions
 In this section, you will find a set of functions, that are recreations of their standard C library (libc) counterparts. These custom functions mirror the behavior of their libc counterparts, following the same prototypes and adhering to the specifications outlined in their respective man pages. The only difference is their naming, as they are prefixed with 'ft_' (42, a coy reference to the school system).
 
 For example, strlen is replicated as ft_strlen.
@@ -30,5 +30,18 @@ For example, strlen is replicated as ft_strlen.
 The process of re-implementing these functions served as an introductory exercise in C programming, encompassing fundamental concepts such as algorithmic logic, data structures, memory allocation, and pointer manipulation.  
 
 ---
+### Custom Libc Functions*
+In this second section, we created a set of functions that either expand upon the capabilities of the standard C library (libc) or offer alternative implementations of existing functionality. These functions may address specialized requirements not covered by the standard library, or they might present optimized approaches to common tasks. This exercise encourages a deeper exploration of C programming, reinforcing proficiency in algorithmic design, data structure utilization, memory management, and advanced pointer manipulation.
+
+|                                        *                                             |                                *                                |
+|--------------------------------------------------------------------------------------|-----------------------------------------------------------------|
+|[ft_subst](https://github.com/arommers/libft/blob/master/src/ft_substr.c)|[ft_strjoin](https://github.com/arommers/libft/blob/master/src/ft_strjoin.c)|
+|[ft_strtrim](https://github.com/arommers/libft/blob/master/src/ft_strtrim.c)|[ft_split](https://github.com/arommers/libft/blob/master/src/ft_split.c)|
+|[ft_itoa](https://github.com/arommers/libft/blob/master/src/ft_itoa.c)|[ft_strmapi](https://github.com/arommers/libft/blob/master/src/ft_strmapi.c)|
+|[ft_putchar_fd](https://github.com/arommers/libft/blob/master/src/ft_putchar_fd.c)|[ft_putstr_fd](https://github.com/arommers/libft/blob/master/src/ft_putstr_fd.c)|
+|[ft_putendl_fd](https://github.com/arommers/libft/blob/master/src/ft_putendl_fd.c)|[ft_putnbr_fd](https://github.com/arommers/libft/blob/master/src/ft_putnbr_fd.c)|
+
+**For the requirements of the implementation of each custom function please take a look at the link to the included subject file below.*
+
 ### Sources
 - [Subject File](https://cdn.intra.42.fr/pdf/pdf/95631/en.subject.pdf)
