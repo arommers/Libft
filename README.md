@@ -52,6 +52,17 @@ Our own trusty sidekick for coding in C!
 
 ---
 
+## The Library
+
+Our Libft library is divided into three sections according to intructions in the subject file:
+
+- Recreated Standard C Functions:  
+  These functions replicate the behavior of their standard C library (libc) counterparts.
+- Extended and Alternative C Functions:  
+  This section introduces functions that either enhance the standard C library's capabilities or provide different ways to achieve existing functionality.
+- Linked List and Struct Operations:  
+  In this section, you'll discover functions and data structures designed for effective management of linked lists and structured data.
+
 ### Reimplemented Libc Functions
 In this section, you will find a set of functions, that are recreations of their standard C library (libc) counterparts. These custom functions mirror the behavior of their libc counterparts, following the same prototypes and adhering to the specifications outlined in their respective man pages. The only difference is their naming, as they are prefixed with 'ft_' (42, a coy reference to the school system).
 
