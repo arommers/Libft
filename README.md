@@ -13,6 +13,15 @@ The libft project is a custom C library, providing a comprehensive set of standa
 - Linked list operations for dynamic data structures
 - Makefile construction
 ---
+
+### Usage*:
+
+- Clone the repository:
+
+  Either use the following command in your terminal: `git clone https://github.com/arommers/libft.git`
+  Or
+
+
 ### Reimplemented Libc Functions
 In this section, you will find a set of functions, that are recreations of their standard C library (libc) counterparts. These custom functions mirror the behavior of their libc counterparts, following the same prototypes and adhering to the specifications outlined in their respective man pages. The only difference is their naming, as they are prefixed with 'ft_' (42, a coy reference to the school system).
 
@@ -41,7 +50,27 @@ In this second section, we created a set of functions that either expand upon th
 |[ft_putchar_fd](https://github.com/arommers/libft/blob/master/src/ft_putchar_fd.c)|[ft_putstr_fd](https://github.com/arommers/libft/blob/master/src/ft_putstr_fd.c)|
 |[ft_putendl_fd](https://github.com/arommers/libft/blob/master/src/ft_putendl_fd.c)|[ft_putnbr_fd](https://github.com/arommers/libft/blob/master/src/ft_putnbr_fd.c)|
 
-**For the requirements of the implementation of each custom function please take a look at the link to the included subject file below.*
+**For the requirements of the implementation of each custom function, please take a look at the link to the included subject file below.*
+
+---
+
+### Linked Lists and Struct Functions
+This section of the libft library encompasses a collection of functions and data structures tailored for efficient linked list handling and structured data organization. Included are essential operations for creating, manipulating, and traversing linked lists, as well as utility functions for managing custom data structures using structs.
+|                                        *                                             |                                *                                |
+|--------------------------------------------------------------------------------------|-----------------------------------------------------------------|
+|[ft_lstnew](https://github.com/arommers/libft/blob/master/src/ft_lstnew.c)|[ft_lstadd_front](https://github.com/arommers/libft/blob/master/src/ft_lstadd_front.c)|
+|[ft_lstsize](https://github.com/arommers/libft/blob/master/src/ft_lstsize.c)|[ft_lstlast](https://github.com/arommers/libft/blob/master/src/ft_lstlast.c)|
+|[ft_lstadd_back](https://github.com/arommers/libft/blob/master/src/ft_lstadd_back.c)|[ft_lstdelone](https://github.com/arommers/libft/blob/master/src/ft_lstdelone.c)|
+|[ft_lstclear](https://github.com/arommers/libft/blob/master/src/ft_lstclear.c)|[ft_lstiter](https://github.com/arommers/libft/blob/master/src/ft_lstiter.c)|
+|[ft_lstmap](https://github.com/arommers/libft/blob/master/src/ft_lstmap.c)|
+
+---
+
+### Remarks
+
+
+
+---
 
 ### Sources
 - [Subject File](https://cdn.intra.42.fr/pdf/pdf/95631/en.subject.pdf)
