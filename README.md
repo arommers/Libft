@@ -1,7 +1,7 @@
 <img src="https://i.imgur.com/HG66CCx.png?raw=true" alt="CODAM" style="max-width: 50%;">
 
 # Libft
-The libft project is a custom C library, providing a comprehensive set of standard C functions for tasks like string manipulation, memory allocation, and linked list handling. It serves as a foundational toolkit for C programming, allowing for efficient and reliable code development.  
+The libft project is a custom C library, providing a comprehensive set of standard C functions for tasks like string manipulation, memory allocation, and linked list handling. It will serve as useful toolkit for C programming, allowing for efficient and reliable code development.  
 
 All the functions we've put together in this repo are linked and packaged up into a library called libft.a.  
 Think of it as a handy toolbox for essential C utilities. We can link this static library to our own projects and tap into this treasure trove of helpful functions.
