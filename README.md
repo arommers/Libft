@@ -12,3 +12,6 @@ The libft project is a custom C library, providing a comprehensive set of standa
 - Linked list operations for dynamic data structures
 - Makefile construction
 
+### Sources
+- [Subject file](https://cdn.intra.42.fr/pdf/pdf/95631/en.subject.pdf)
+
