@@ -16,11 +16,35 @@ The libft project is a custom C library, providing a comprehensive set of standa
 
 ### Usage*:
 
-- Clone the repository:
+- **Clone the repository:**
 
-  Either use the following command in your terminal: `git clone https://github.com/arommers/libft.git`
-  Or
+  Either use the following command in your terminal: `git clone https://github.com/arommers/libft.git`  
+  Or Click the green "Code" button in the upper right corner to download zip file and then unzip it.
 
+- **Compile the library using the cmd** &nbsp;&nbsp;`make`
+- **Include Header Files:**
+  
+  In your C source file (.c), include the necessary header files from libft. This allows your code to access the function declarations.  
+  For example, if you want to use ft_strlen, include libft.h at the beginning of your file: `#include libft`
+  
+- **Link the Library:**
+  
+  When compiling your program, you need to tell the compiler to include the libft library.  
+  This is done using the -L flag (to specify the library directory) and -l flag (to specify the library name).  
+  Assuming your libft.a is located in a directory named lib within your project directory, you would compile like this:
+  
+  `gcc -o <your_program> <your_program.c> -L./lib -lft`
+  
+  Here, <your_program> is the name of your executable, <your_program.c> is your source file, and -L./lib specifies the library directory as ./lib, while -lft specifies that it should link with libft.a.
+
+- **Compile and Run:**
+  
+  Now, compile your program as usual. The compiler will use the functions from libft.a while building your program.
+  When you run your program, it will have access to all the functions from libft.
+
+**As of now the instruction only partain to creating the static library on MacOS. Use on linux or windows systems at your own risk ;)*
+
+---
 
 ### Reimplemented Libc Functions
 In this section, you will find a set of functions, that are recreations of their standard C library (libc) counterparts. These custom functions mirror the behavior of their libc counterparts, following the same prototypes and adhering to the specifications outlined in their respective man pages. The only difference is their naming, as they are prefixed with 'ft_' (42, a coy reference to the school system).
@@ -54,7 +78,7 @@ In this second section, we created a set of functions that either expand upon th
 
 ---
 
-### Linked Lists and Struct Functions
+### Linked List and Struct Functions
 This section of the libft library encompasses a collection of functions and data structures tailored for efficient linked list handling and structured data organization. Included are essential operations for creating, manipulating, and traversing linked lists, as well as utility functions for managing custom data structures using structs.
 |                                        *                                             |                                *                                |
 |--------------------------------------------------------------------------------------|-----------------------------------------------------------------|
