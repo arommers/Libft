@@ -111,7 +111,7 @@ This section of the libft library encompasses a collection of functions and data
 
 Creating the static library libft marked my very first steps in the world of coding. It was both fun and challenging, albeit with occasional inaccuracies and often, less-than-efficient code.
 
-Admittedly, as I wrote most of these functions, my grasp of the involved concepts was, at best, rudimentary. Yet, revisiting them now provides a pleasant reminder of those initial struggles, and serves as a constant testament to my ongoing growth and improvement.
+Admittedly, as I wrote most of these functions, my grasp of the involved concepts was, at best, rudimentary. Yet, revisiting them now provides a pleasant reminder of those initial struggles, and my constant ongoing growth and improvement.
 
 This is precisely why I've chosen not to update functions that might, to a discerning eye, display certain glaring faults. They stand as valuable markers of my progress in this coding journey.
 
