@@ -18,9 +18,16 @@ In this section, you will find a set of functions, that recreations of their sta
 
 For example, strlen is replicated as ft_strlen.
 
-- [ft_isalpha](https://github.com/arommers/libft/blob/master/src/ft_isalpha.c)
-- [ft_isdigit](https://github.com/arommers/libft/blob/master/src/ft_isdigit.c)
+|                                                                                   |                                                                       |
+|-----------------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| [ft_isalpha](https://github.com/arommers/libft/blob/master/src/ft_isalpha.c)| [ft_memset](https://github.com/arommers/libft/blob/master/src/ft_memset.c)|
+| [ft_isdigit](https://github.com/arommers/libft/blob/master/src/ft_isdigit.c)| [ft_bzero](https://github.com/arommers/libft/blob/master/src/ft_bzero.c)|
+| [ft_isalnum](https://github.com/arommers/libft/blob/master/src/ft_isalnum.c)| [ft_memcpy](https://github.com/arommers/libft/blob/master/src/ft_memcpy.c)|
+| [ft_isascii](https://github.com/arommers/libft/blob/master/src/ft_isascii.c)| [ft_memmove](https://github.com/arommers/libft/blob/master/src/ft_memmove.c)|
+| [ft_isprint](https://github.com/arommers/libft/blob/master/src/ft_isprint.c)| [ft_strlcpy](https://github.com/arommers/libft/blob/master/src/ft_strlcpy.c)|
+| [ft_strlen](https://github.com/arommers/libft/blob/master/src/ft_strlen.c)| [ft_strlcat](https://github.com/arommers/libft/blob/master/src/ft_strlcat.c)|
+
 
 ---
 ### Sources
-- [Subject file](https://cdn.intra.42.fr/pdf/pdf/95631/en.subject.pdf)
+- [Subject File](https://cdn.intra.42.fr/pdf/pdf/95631/en.subject.pdf)
