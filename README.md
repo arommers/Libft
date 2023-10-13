@@ -115,8 +115,6 @@ Admittedly, as I wrote most of these functions, my grasp of the involved concept
 
 This is precisely why I've chosen not to update functions that might, to a discerning eye, display certain glaring faults. They stand as valuable markers of my progress in this coding journey.
 
-.
-
 ---
 
 ### Sources
