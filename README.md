@@ -25,7 +25,7 @@ Our own trusty sidekick for coding in C!
 - **Clone the repository:**
 
   Either use the following command in your terminal: `git clone https://github.com/arommers/libft.git`  
-  Or Click the green "Code" button in the upper right corner to download zip file and then unzip it.
+  Or Click the green "Code" button in the upper right corner to download the zip file and then unzip it.
 
 - **Compile the library using the cmd** &nbsp;&nbsp;`make`
 - **Include Header Files:**
